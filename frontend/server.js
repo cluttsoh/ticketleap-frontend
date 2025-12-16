@@ -35,6 +35,17 @@ async function main() {
     const app = express();
 import cors from "cors";
 
+const cors = require("cors");
+
+app.use(cors({
+  origin: "https://ticketleap.netlify.app",
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+}));
+
+// Make preflight (OPTIONS) succeed everywhere
+app.options("*", cors());
+
 app.use(cors({
   origin: "https://ticketleap.netlify.app",
   methods: ["GET","POST","PUT","PATCH","DELETE","OPTIONS"],
