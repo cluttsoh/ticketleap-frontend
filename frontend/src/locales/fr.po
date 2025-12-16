@@ -29,7 +29,7 @@ msgstr "\"Il n'y a rien à montrer pour l'instant\""
 
 #: src/components/routes/admin/Attribution/index.tsx:148
 msgid "(empty)"
-msgstr ""
+msgstr "(vide)"
 
 #: src/components/common/OrganizerReportTable/index.tsx:314
 #: src/components/common/ReportTable/index.tsx:303
@@ -982,21 +982,20 @@ msgstr "Participants avec un ticket spécifique"
 msgid "Attendees:"
 msgstr "Participants:"
 
-#: src/components/layouts/Admin/index.tsx:18
-msgid "Attribution"
-msgstr ""
+#~ msgid "Attribution"
+#~ msgstr "Attribution"
 
 #: src/components/routes/admin/Attribution/index.tsx:29
 msgid "Attribution Analytics"
-msgstr ""
+msgstr "Analyse d'attribution"
 
 #: src/components/routes/admin/Attribution/index.tsx:97
 msgid "Attribution Breakdown"
-msgstr ""
+msgstr "Répartition de l'attribution"
 
 #: src/components/routes/admin/Attribution/index.tsx:124
 msgid "Attribution Value"
-msgstr ""
+msgstr "Valeur d'attribution"
 
 #: src/components/common/WidgetEditor/index.tsx:236
 msgid "Auto Resize"
@@ -1186,7 +1185,7 @@ msgstr "Scanner caméra"
 
 #: src/components/routes/admin/Attribution/index.tsx:107
 msgid "Campaign"
-msgstr ""
+msgstr "Campagne"
 
 #: src/components/common/AttendeeTable/index.tsx:370
 #: src/components/common/CheckIn/CheckInOptionsModal.tsx:59
@@ -4372,7 +4371,7 @@ msgstr "Maximum par commande"
 
 #: src/components/routes/admin/Attribution/index.tsx:108
 msgid "Medium"
-msgstr ""
+msgstr "Support"
 
 #: src/components/common/AttendeeTable/index.tsx:188
 #: src/components/common/ContactOrganizerModal/index.tsx:88
@@ -4586,7 +4585,7 @@ msgstr "Aucun participant à afficher"
 
 #: src/components/routes/admin/Attribution/index.tsx:139
 msgid "No attribution data found"
-msgstr ""
+msgstr "Aucune donnée d'attribution trouvée"
 
 #: src/components/common/CapacityAssignmentList/index.tsx:42
 msgid "No Capacity Assignments"
@@ -5167,7 +5166,7 @@ msgstr "Commandes:"
 
 #: src/components/routes/admin/Attribution/index.tsx:62
 msgid "Organic Accounts"
-msgstr ""
+msgstr "Comptes organiques"
 
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:44
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:45
@@ -5301,7 +5300,7 @@ msgstr "payé"
 
 #: src/components/routes/admin/Attribution/index.tsx:51
 msgid "Paid Accounts"
-msgstr ""
+msgstr "Comptes payants"
 
 #: src/components/forms/ProductForm/index.tsx:154
 msgid "Paid Product"
@@ -6017,7 +6016,7 @@ msgstr "Redirection vers Stripe..."
 
 #: src/components/routes/admin/Attribution/index.tsx:73
 msgid "Referral Accounts"
-msgstr ""
+msgstr "Comptes de parrainage"
 
 #: src/components/common/EmailTemplateEditor/EmailTemplateEditor.tsx:175
 msgid "Refresh Preview"
@@ -6870,7 +6869,7 @@ msgstr "Désolé, ce code promo n'est pas reconnu"
 
 #: src/components/routes/admin/Attribution/index.tsx:106
 msgid "Source"
-msgstr ""
+msgstr "Source"
 
 #: src/components/common/LanguageSwitcher/index.tsx:20
 msgid "Spanish"
@@ -6921,7 +6920,7 @@ msgstr "Statistiques"
 
 #: src/components/routes/admin/Attribution/index.tsx:35
 msgid "Statistics are based on account creation date"
-msgstr ""
+msgstr "Les statistiques sont basées sur la date de création du compte"
 
 #: src/components/common/AdminEventsTable/index.tsx:107
 #: src/components/common/AdminOrdersTable/index.tsx:82
@@ -6959,7 +6958,7 @@ msgstr "Stripe Connect"
 
 #: src/components/routes/admin/Attribution/index.tsx:128
 msgid "Stripe Connected"
-msgstr ""
+msgstr "Stripe connecté"
 
 #: src/components/routes/product-widget/Payment/PaymentMethods/Stripe/index.tsx:50
 msgid "Stripe payments are not enabled for this event."
@@ -7846,7 +7845,7 @@ msgstr "Utilisateurs Totaux"
 
 #: src/components/routes/admin/Attribution/index.tsx:32
 msgid "Track account growth and performance by attribution source"
-msgstr ""
+msgstr "Suivez la croissance et les performances des comptes par source d'attribution"
 
 #: src/components/layouts/AuthLayout/index.tsx:41
 msgid "Track sales, revenue, and attendance with detailed reports"
@@ -7935,7 +7934,7 @@ msgstr "Impossible de mettre à jour la question. Veuillez vérifier vos coordon
 
 #: src/components/routes/admin/Attribution/index.tsx:84
 msgid "Unattributed Accounts"
-msgstr ""
+msgstr "Comptes non attribués"
 
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:30
 msgid "Unique Customers"
@@ -8126,6 +8125,10 @@ msgstr "Les utilisateurs peuvent modifier leur adresse e-mail dans <0>Paramètre
 msgid "UTC"
 msgstr "UTC"
 
+#: src/components/layouts/Admin/index.tsx:18
+msgid "UTM Analytics"
+msgstr "Analytique UTM"
+
 #: src/components/routes/admin/Accounts/AccountDetail/index.tsx:206
 msgid "Valid"
 msgstr "Valide"
@@ -8231,7 +8234,7 @@ msgstr "Code de vérification"
 
 #: src/components/routes/admin/Attribution/index.tsx:129
 msgid "Verified"
-msgstr ""
+msgstr "Vérifié"
 
 #: src/components/routes/welcome/index.tsx:187
 msgid "Verify Email"
@@ -8992,57 +8995,3 @@ msgstr "Code Postal"
 #: src/components/routes/product-widget/CollectInformation/index.tsx:523
 msgid "ZIP or Postal Code"
 msgstr "Code postal"
-
-msgid "(empty)"
-msgstr "(vide)"
-
-msgid "Attribution"
-msgstr "Attribution"
-
-msgid "Attribution Analytics"
-msgstr "Analyse d'attribution"
-
-msgid "Attribution Breakdown"
-msgstr "Répartition de l'attribution"
-
-msgid "Attribution Value"
-msgstr "Valeur d'attribution"
-
-msgid "Campaign"
-msgstr "Campagne"
-
-msgid "Medium"
-msgstr "Support"
-
-msgid "No attribution data found"
-msgstr "Aucune donnée d'attribution trouvée"
-
-msgid "Organic Accounts"
-msgstr "Comptes organiques"
-
-msgid "Paid Accounts"
-msgstr "Comptes payants"
-
-msgid "Referral Accounts"
-msgstr "Comptes de parrainage"
-
-msgid "Source"
-msgstr "Source"
-
-msgid "Statistics are based on account creation date"
-msgstr "Les statistiques sont basées sur la date de création du compte"
-
-msgid "Stripe Connected"
-msgstr "Stripe connecté"
-
-msgid "Track account growth and performance by attribution source"
-msgstr "Suivez la croissance et les performances des comptes par source d'attribution"
-
-msgid "Unattributed Accounts"
-msgstr "Comptes non attribués"
-
-msgid "Verified"
-msgstr "Vérifié"
-
-msgid "UTM Analytics"
-msgstr "Analytique UTM"

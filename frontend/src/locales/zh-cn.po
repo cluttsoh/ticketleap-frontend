@@ -29,7 +29,7 @@ msgstr "There's nothing to show yet"
 
 #: src/components/routes/admin/Attribution/index.tsx:148
 msgid "(empty)"
-msgstr ""
+msgstr "(空)"
 
 #: src/components/common/OrganizerReportTable/index.tsx:314
 #: src/components/common/ReportTable/index.tsx:303
@@ -982,21 +982,20 @@ msgstr "持有特定门票的与会者"
 msgid "Attendees:"
 msgstr "参与者："
 
-#: src/components/layouts/Admin/index.tsx:18
-msgid "Attribution"
-msgstr ""
+#~ msgid "Attribution"
+#~ msgstr "归因"
 
 #: src/components/routes/admin/Attribution/index.tsx:29
 msgid "Attribution Analytics"
-msgstr ""
+msgstr "归因分析"
 
 #: src/components/routes/admin/Attribution/index.tsx:97
 msgid "Attribution Breakdown"
-msgstr ""
+msgstr "归因细分"
 
 #: src/components/routes/admin/Attribution/index.tsx:124
 msgid "Attribution Value"
-msgstr ""
+msgstr "归因值"
 
 #: src/components/common/WidgetEditor/index.tsx:236
 msgid "Auto Resize"
@@ -1186,7 +1185,7 @@ msgstr "相机扫描仪"
 
 #: src/components/routes/admin/Attribution/index.tsx:107
 msgid "Campaign"
-msgstr ""
+msgstr "活动"
 
 #: src/components/common/AttendeeTable/index.tsx:370
 #: src/components/common/CheckIn/CheckInOptionsModal.tsx:59
@@ -4371,7 +4370,7 @@ msgstr "每份订单的最高限额"
 
 #: src/components/routes/admin/Attribution/index.tsx:108
 msgid "Medium"
-msgstr ""
+msgstr "媒介"
 
 #: src/components/common/AttendeeTable/index.tsx:188
 #: src/components/common/ContactOrganizerModal/index.tsx:88
@@ -4585,7 +4584,7 @@ msgstr "无与会者"
 
 #: src/components/routes/admin/Attribution/index.tsx:139
 msgid "No attribution data found"
-msgstr ""
+msgstr "未找到归因数据"
 
 #: src/components/common/CapacityAssignmentList/index.tsx:42
 msgid "No Capacity Assignments"
@@ -5166,7 +5165,7 @@ msgstr "订单："
 
 #: src/components/routes/admin/Attribution/index.tsx:62
 msgid "Organic Accounts"
-msgstr ""
+msgstr "自然账户"
 
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:44
 #: src/components/common/Editor/Controls/InsertLiquidVariableControl.tsx:45
@@ -5300,7 +5299,7 @@ msgstr "付讫"
 
 #: src/components/routes/admin/Attribution/index.tsx:51
 msgid "Paid Accounts"
-msgstr ""
+msgstr "付费账户"
 
 #: src/components/forms/ProductForm/index.tsx:154
 msgid "Paid Product"
@@ -6016,7 +6015,7 @@ msgstr "正在重定向到 Stripe..."
 
 #: src/components/routes/admin/Attribution/index.tsx:73
 msgid "Referral Accounts"
-msgstr ""
+msgstr "推荐账户"
 
 #: src/components/common/EmailTemplateEditor/EmailTemplateEditor.tsx:175
 msgid "Refresh Preview"
@@ -6869,7 +6868,7 @@ msgstr "对不起，此优惠代码不可用"
 
 #: src/components/routes/admin/Attribution/index.tsx:106
 msgid "Source"
-msgstr ""
+msgstr "来源"
 
 #: src/components/common/LanguageSwitcher/index.tsx:20
 msgid "Spanish"
@@ -6920,7 +6919,7 @@ msgstr "统计数据"
 
 #: src/components/routes/admin/Attribution/index.tsx:35
 msgid "Statistics are based on account creation date"
-msgstr ""
+msgstr "统计数据基于账户创建日期"
 
 #: src/components/common/AdminEventsTable/index.tsx:107
 #: src/components/common/AdminOrdersTable/index.tsx:82
@@ -6958,7 +6957,7 @@ msgstr "Stripe Connect"
 
 #: src/components/routes/admin/Attribution/index.tsx:128
 msgid "Stripe Connected"
-msgstr ""
+msgstr "Stripe 已连接"
 
 #: src/components/routes/product-widget/Payment/PaymentMethods/Stripe/index.tsx:50
 msgid "Stripe payments are not enabled for this event."
@@ -7845,7 +7844,7 @@ msgstr "总用户数"
 
 #: src/components/routes/admin/Attribution/index.tsx:32
 msgid "Track account growth and performance by attribution source"
-msgstr ""
+msgstr "按归因来源跟踪账户增长和表现"
 
 #: src/components/layouts/AuthLayout/index.tsx:41
 msgid "Track sales, revenue, and attendance with detailed reports"
@@ -7934,7 +7933,7 @@ msgstr "无法更新问题。请检查您的详细信息"
 
 #: src/components/routes/admin/Attribution/index.tsx:84
 msgid "Unattributed Accounts"
-msgstr ""
+msgstr "未归因账户"
 
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:30
 msgid "Unique Customers"
@@ -8125,6 +8124,10 @@ msgstr "用户可在 <0>\"配置文件设置\"</0> 中更改自己的电子邮�
 msgid "UTC"
 msgstr "世界协调时"
 
+#: src/components/layouts/Admin/index.tsx:18
+msgid "UTM Analytics"
+msgstr "UTM 分析"
+
 #: src/components/routes/admin/Accounts/AccountDetail/index.tsx:206
 msgid "Valid"
 msgstr "有效"
@@ -8230,7 +8233,7 @@ msgstr "验证码"
 
 #: src/components/routes/admin/Attribution/index.tsx:129
 msgid "Verified"
-msgstr ""
+msgstr "已验证"
 
 #: src/components/routes/welcome/index.tsx:187
 msgid "Verify Email"
@@ -8991,57 +8994,3 @@ msgstr "邮政编码"
 #: src/components/routes/product-widget/CollectInformation/index.tsx:523
 msgid "ZIP or Postal Code"
 msgstr "邮政编码"
-
-msgid "(empty)"
-msgstr "(空)"
-
-msgid "Attribution"
-msgstr "归因"
-
-msgid "Attribution Analytics"
-msgstr "归因分析"
-
-msgid "Attribution Breakdown"
-msgstr "归因细分"
-
-msgid "Attribution Value"
-msgstr "归因值"
-
-msgid "Campaign"
-msgstr "活动"
-
-msgid "Medium"
-msgstr "媒介"
-
-msgid "No attribution data found"
-msgstr "未找到归因数据"
-
-msgid "Organic Accounts"
-msgstr "自然账户"
-
-msgid "Paid Accounts"
-msgstr "付费账户"
-
-msgid "Referral Accounts"
-msgstr "推荐账户"
-
-msgid "Source"
-msgstr "来源"
-
-msgid "Statistics are based on account creation date"
-msgstr "统计数据基于账户创建日期"
-
-msgid "Stripe Connected"
-msgstr "Stripe 已连接"
-
-msgid "Track account growth and performance by attribution source"
-msgstr "按归因来源跟踪账户增长和表现"
-
-msgid "Unattributed Accounts"
-msgstr "未归因账户"
-
-msgid "Verified"
-msgstr "已验证"
-
-msgid "UTM Analytics"
-msgstr "UTM 分析"

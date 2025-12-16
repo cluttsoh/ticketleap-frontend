@@ -983,8 +983,8 @@ msgid "Attendees:"
 msgstr "Attendees:"
 
 #: src/components/layouts/Admin/index.tsx:18
-msgid "Attribution"
-msgstr "Attribution"
+#~ msgid "Attribution"
+#~ msgstr "Attribution"
 
 #: src/components/routes/admin/Attribution/index.tsx:29
 msgid "Attribution Analytics"
@@ -8126,6 +8126,10 @@ msgstr "Users can change their email in <0>Profile Settings</0>"
 #: src/components/routes/profile/ManageProfile/index.tsx:188
 msgid "UTC"
 msgstr "UTC"
+
+#: src/components/layouts/Admin/index.tsx:18
+msgid "UTM Analytics"
+msgstr "UTM Analytics"
 
 #: src/components/routes/admin/Accounts/AccountDetail/index.tsx:206
 msgid "Valid"
